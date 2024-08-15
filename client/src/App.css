@@ -1,0 +1,143 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px dashed grey;
+}
+
+.btn{
+    color: aliceblue;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(60, 65, 63);
+}
+.green{
+    background-color: rgb(41, 158, 53);
+
+}
+.red{
+    background-color: red;
+}
+.btn.green:hover{
+    background-color: green;
+}
+.btn.red:hover{
+    background-color: rgb(85, 9, 9);
+}
+
+.input-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+.input-search input{
+    width: 300px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+.table th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.table th{
+    background-color: #f2f2f2;
+    
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}
+
+.table tr:hover{
+    background-color: #ddd;
+}
+
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.5);
+    overflow: auto;
+}
+.modelcontent{
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid#888;
+    width: 80%;
+    
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus{
+    color: black;
+    cursor: pointer;
+}
+
+.modal h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.inputgroup{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.inputgroup label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+.inputgroup input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btngreen{
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(17, 110, 73);
+}
